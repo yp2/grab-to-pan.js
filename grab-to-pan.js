@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-'use strict';
 
-var GrabToPan = (function GrabToPanClosure() {
+GrabToPan = (function GrabToPanClosure() {
+  'use strict';
   /**
    * Construct a GrabToPan instance for a given HTML element.
    * @param options.element {Element}
@@ -232,3 +232,4 @@ var GrabToPan = (function GrabToPanClosure() {
 
   return GrabToPan;
 })();
+
